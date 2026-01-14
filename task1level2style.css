@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #000;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: chartreuse;
+    justify-content: space-between;
+}
+.navbar a{
+    margin-left: 15px;
+    position: relative;
+    color: #a1a1aa;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: chartreuse;
+}
+.main{
+    text-align: center;
+    display:flex;
+    padding: 80px 20px;
+    justify-content: space-between;
+}
+.maintext{
+    color:chartreuse;
+}
+h2 ,h3{
+    color:white;
+}
+.paratext1{
+    color: gray;
+}
+.buttons,.mail{
+    margin-top: 20px;
+}
+.btn,.mail{
+     padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+}
+.primary{
+    background: #39ff14;
+    color: #000;
+}
+.outline,.mail{
+    border: 2px solid #39ff14;
+    color: #39ff14;
+}
+section{
+    padding: 80px 60px;
+}
+h2{
+    margin-bottom: 20px;
+}
+.skill0{
+    display: flex;
+    gap: 20px;
+    color: grey;
+}
+.skill1,.skill2,.skill3{
+    padding: 30px;
+    border-radius: 15px;
+    flex: 1;
+    transition: 0.3s;
+    background: #1a1a24;
+}
+.skill1:hover,.skill2:hover,.skill3:hover{
+     transform: translateY(-10px) scale(1.03);
+     border: 1px solid #39ff14;
+}
+.project1{
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background: #1a1a24;
+    transition: 0.3s;
+}
+.project1:hover{
+     transform: translateY(-8px);
+    border: 1px solid #39ff14;
+}
+.project1 span{
+    font-size: 14px;
+    color:#39ff14;
+}
+.last {
+    text-align: center;
+}footer {
+    text-align: center;
+    padding: 20px;
+    color:#a1a1aa;    
+}.box{
+    background: #1a1a24;
+    border: 1px solid #39ff14;
+    border-radius: 35px;
+    padding: 25px;
+}
+
